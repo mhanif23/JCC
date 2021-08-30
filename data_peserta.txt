@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp Nodejs Adonis Backend
+1. Nama: Rizal Muharam
+2. Email: muharamrizal2@gmail.com 
+3. Sistem Operasi yang digunakan: Windows with WSL2
+4. Akun Gitlab(Github): rizalraisyad 
+5. Akun Telegram: rizalmuharam
