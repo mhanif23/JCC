@@ -17,7 +17,12 @@ const sum = (startNum, finishNum, range) => {
       array.push(finishNum);
     if (array.length < 1) array.push(finishNum);
   }
-  return array.reverse().reduce(reducer);
+  newArray = [];
+  for (j = array.length - 1; j >= 0; j--) {
+    newArray.push(array[j]);
+  }
+
+  return newArray.reduce(reducer);
 };
 
 console.log(sum(1, 10));

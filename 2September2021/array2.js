@@ -14,7 +14,11 @@ const range = (startNum, finishNum, range) => {
       array.push(finishNum);
     if (array.length < 1) array.push(finishNum);
   }
-  return array.reverse();
+  newArray = [];
+  for (k = array.length - 1; k >= 0; k--) {
+    newArray.push(array[k]);
+  }
+  return newArray;
 };
 
 console.log(range(1, 10, 2));
